@@ -1,0 +1,25 @@
+.search_box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 70%;
+  height: 1.3rem;
+  padding: 0.5rem 1.2rem;
+  border: 1.2px solid var(--lgray);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+
+
+.search_input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #353535;
+  font-family: 'Poppins';
+}

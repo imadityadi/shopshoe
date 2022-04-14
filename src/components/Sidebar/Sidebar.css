@@ -1,0 +1,81 @@
+.sidebar_wrapper{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 5.5rem;
+    min-width: 25%;
+    height: 100vh;
+    border-right: 0.1px solid var(--lgray200);
+}
+
+.expandable_tab {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.1px solid var(--lgray200);
+    border-bottom: 0.1px solid var(--lgray200);
+    user-select: none;
+}
+
+.toggleicon {
+    cursor: pointer;
+}
+
+
+
+.content {
+    height: 0rem;
+    display: none;
+    flex-direction: column;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    transition: all;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+}
+
+.expanded_content {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}   
+
+.range_slider {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: flex-start;
+
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+.price_range_label {
+    font-size: 1rem;
+    color: var(--black100);
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin: 0.5rem 0;
+}
+
+.sizecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}

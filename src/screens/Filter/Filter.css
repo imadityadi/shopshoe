@@ -1,0 +1,13 @@
+.filter_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    overflow-y: hidden;
+}
+
+
+.section_row {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}

@@ -1,0 +1,21 @@
+.nav_wrapper {
+    display: flex;
+    min-height: 2rem;
+    padding: 1.5rem 2rem;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.01px solid var(--lgray200);
+}
+
+.nav_wrapper .logo_container {
+        min-width: 25%;
+        font-size: 1.5rem;
+        font-family: 'Poppins';
+        color: #353535;
+        user-select: none;
+        cursor: pointer;
+    }
+
+.search_container {
+    width: 45%;
+}

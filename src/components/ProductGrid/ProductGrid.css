@@ -1,0 +1,9 @@
+.grid_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: none;
+    width: 75%;
+    height: 90vh;
+    overflow-y: scroll;
+}
